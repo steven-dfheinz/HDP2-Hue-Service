@@ -19,6 +19,11 @@ Ambari service for easily installing and managing Hue 3.11.0 on HDP 2.x cluster.
 #### Setup
 - Install required services: HDFS,Yarn,Hive,Hbase,Spark,Zookeeper,Sqoop,Oozie,Pig,Tez,etc
 - Install epel repository OR Make sure all gethue.com dependencies are able to be installed on hue node
+- Deliver Service Fileset to Ambari   
+``` 
+sudo git clone https://github.com/steven-dfheinz/HDP3-Hue-Service.git /var/lib/ambari-server/resources/stacks/HDP/[version]/services/HUE
+```
+  **** be sure to get your correct [version] for command above
 - Restart Ambari
 ```
 service ambari-server restart
