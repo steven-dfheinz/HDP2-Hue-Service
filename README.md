@@ -25,7 +25,12 @@ for Kyle's original repo to install.  If you need to understand the differences 
 sudo git clone https://github.com/steven-dfheinz/HDP2-Hue-Service.git /var/lib/ambari-server/resources/stacks/HDP/[version]/services/HUE
 ```
   **** be sure to get your correct [version] for command above
-
+- To change to any other Hue Version, replace '3.11.0' with your required version in the following files:
+```
+metainfo.xml
+package/scripts/params.py
+package/scripts/setup_hue.py
+```
 - Restart Ambari
 ```
 service ambari-server restart
@@ -33,12 +38,9 @@ service ambari-server restart
 - In Ambari click on 'Add Service' and install HUE
 
 #### Change Versions
-- To change any Hue Version, download the repo, and replace '3.11.0' with your required version in the following files:
-```
-metainfo.xml
-package/scripts/params.py
-package/scripts/setup_hue.py
-```
+-
+
+
 #### Known Issues
 - Very long install time due to compile time for Hue's make install command
 
