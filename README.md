@@ -32,6 +32,13 @@ service ambari-server restart
 ```
 - In Ambari click on 'Add Service' and install HUE
 
+#### Change Versions
+- To change any Hue Version, download the repo, and replace '3.11.0' with your required version in the following files:
+```
+metainfo.xml
+package/scripts/params.py
+package/scripts/setup_hue.py
+```
 #### Known Issues
 - Very long install time due to compile time for Hue's make install command
 
