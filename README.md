@@ -1,6 +1,5 @@
 #### An Ambari Service for Hue
-Ambari service for easily installing and managing Hue 3.x on HDP 2.x cluster.  This repository is updated with only the minimal changes required
-for Kyle's original repo to install.  If you need to understand the differences please diff each repo.
+Ambari service for easily installing and managing Hue 3.11.0 on HDP 2.x cluster.  This repository is updated with only the minimal changes required for Kyle's original repo to install.  If you need to understand the differences please diff each repo.
 
 #### Authors
   - [Kyle Joe](https://github.com/EsharEditor)
@@ -18,8 +17,8 @@ for Kyle's original repo to install.  If you need to understand the differences 
 - HDP 2.x
 
 #### Setup
-- Install required services: HDFS,Yarn,Hive,Hbase,Spark,Zookeeper,Sqoop,Oozie and execute python command below before installing Hue.
-- Install epel repository OR Make sure all gethue dependencies are able to be installed on hue node
+- Install required services: HDFS,Yarn,Hive,Hbase,Spark,Zookeeper,Sqoop,Oozie,Pig,Tez,etc
+- Install epel repository OR Make sure all gethue.com dependencies are able to be installed on hue node
 - Restart Ambari
 ```
 service ambari-server restart
