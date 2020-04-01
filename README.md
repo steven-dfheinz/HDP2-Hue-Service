@@ -20,17 +20,6 @@ for Kyle's original repo to install.  If you need to understand the differences 
 #### Setup
 - Install required services: HDFS,Yarn,Hive,Hbase,Spark,Zookeeper,Sqoop,Oozie and execute python command below before installing Hue.
 - Install epel repository OR Make sure all gethue dependencies are able to be installed on hue node
-- Deliver Service Fileset to Ambari   
-``` 
-sudo git clone https://github.com/steven-dfheinz/HDP2-Hue-Service.git /var/lib/ambari-server/resources/stacks/HDP/[version]/services/HUE
-```
-  **** be sure to get your correct [version] for command above
-- To change to any other Hue Version, replace '3.11.0' with your required version in the following files:
-```
-metainfo.xml
-package/scripts/params.py
-package/scripts/setup_hue.py
-```
 - Restart Ambari
 ```
 service ambari-server restart
