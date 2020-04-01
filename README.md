@@ -11,6 +11,7 @@ Ambari service for easily installing and managing Hue 3.11.0 on HDP 2.x cluster.
 - See https://gethue.com for more information, versions, and official documentation.
 - DFHz working on Hue 4.x with HDP 3.x [HERE](https://github.com/steven-dfheinz/HDP3-Hue-Service)
 - DFHz working on Hue Management Pack for Ambari [HERE](https://github.com/steven-dfheinz/dfhz_hue_mpack)
+- DFHz working with Hue 4.x with HDP 2.x [HERE](https://github.com/steven-dfheinz/HDP2-Hue4-Service)
 
 #### Version
 - Hue 3.11.0
