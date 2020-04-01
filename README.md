@@ -37,10 +37,6 @@ service ambari-server restart
 ```
 - In Ambari click on 'Add Service' and install HUE
 
-#### Change Versions
--
-
-
 #### Known Issues
 - Very long install time due to compile time for Hue's make install command
 
