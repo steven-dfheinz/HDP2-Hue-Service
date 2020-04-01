@@ -2,14 +2,16 @@
 Ambari service for easily installing and managing Hue 3.x on HDP 2.x cluster.  This repository is updated with only the minimal changes required
 for Kyle's original repo to install.  If you need to understand the differences please diff each repo.
 
-#### Authors: 
+#### Authors
   - [Kyle Joe](https://github.com/EsharEditor)
   - [Steven Matison](https://github.com/steven-dfheinz)
 
-A big thank you to Kyle for creating the original HDP 2.x github repo. 
-Have a look here:  https://github.com/EsharEditor/ambari-hue-service
+#### Notes
+- A big thank you to Kyle for creating the original HDP 2.x github repo. Have a look here:  https://github.com/EsharEditor/ambari-hue-service
 
-Also see https://gethue.com for more information, versions, and official documentation.
+- See https://gethue.com for more information, versions, and official documentation.
+- DFHz working on Hue 4.x with HDP 3.x [HERE](https://github.com/steven-dfheinz/HDP3-Hue-Service)
+- DFHz working on Hue Management Pack for Ambari [HERE](https://github.com/steven-dfheinz/dfhz_hue_mpack)
 
 #### Version
 - Hue 3.11.0
@@ -31,7 +33,7 @@ service ambari-server restart
 - In Ambari click on 'Add Service' and install HUE
 
 #### Known Issues
-- pending
+- Very long install time due to compile time for Hue's make install command
 
 #### Coming Soon
-- pending
+- HDP 2.x Management Pack [dfhz_hue_mpack](https://github.com/steven-dfheinz/dfhz_hue_mpack)
